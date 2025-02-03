@@ -1,0 +1,18 @@
+{
+  "python.languageServer": "Pylance",
+  "python.linting.enabled": true,
+  "python.linting.pylintEnabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.linting.mypyEnabled": true,
+  "python.testing.pytestEnabled": true,
+  "python.testing.unittestEnabled": false,
+  "python.testing.autoTestDiscoverOnSaveEnabled": true,
+  "files.exclude": {
+    "**/__pycache__": true,  // Hide Python cache folders
+    "**/*.pyc": true,        // Hide compiled Python files
+    "**/*.pyo": true,        // Hide optimized Python files
+    "**/*.pyd": true,        // Hide Python extension modules
+    "**/.DS_Store": true,    // Hide macOS system files
+    "**/Thumbs.db": true     // Hide Windows thumbnail files
+  }
+}

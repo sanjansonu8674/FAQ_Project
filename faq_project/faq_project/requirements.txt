@@ -1,0 +1,4 @@
+Django==5.0
+django-ckeditor==7.0.0
+djangorestframework==3.14.0
+translate==3.9.0
